@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "tournament": "2026 FIFA World Cup",
+    "source": "Official final draw (confirmed). 48 teams across 12 groups.",
+    "note": "fifaRank 与 bioZh 留空，由你填写。debut=true 为本届世界杯首次参赛的队伍（佛得角、库拉索、约旦、乌兹别克斯坦）。"
+  },
+  "teams": [
+    { "slug": "mexico", "nameZh": "墨西哥", "nameEn": "Mexico", "flag": "🇲🇽", "group": "A", "host": true, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "south-korea", "nameZh": "韩国", "nameEn": "South Korea", "flag": "🇰🇷", "group": "A", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "south-africa", "nameZh": "南非", "nameEn": "South Africa", "flag": "🇿🇦", "group": "A", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "czechia", "nameZh": "捷克", "nameEn": "Czechia", "flag": "🇨🇿", "group": "A", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+
+    { "slug": "canada", "nameZh": "加拿大", "nameEn": "Canada", "flag": "🇨🇦", "group": "B", "host": true, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "switzerland", "nameZh": "瑞士", "nameEn": "Switzerland", "flag": "🇨🇭", "group": "B", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "qatar", "nameZh": "卡塔尔", "nameEn": "Qatar", "flag": "🇶🇦", "group": "B", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "bosnia-herzegovina", "nameZh": "波黑", "nameEn": "Bosnia and Herzegovina", "flag": "🇧🇦", "group": "B", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+
+    { "slug": "brazil", "nameZh": "巴西", "nameEn": "Brazil", "flag": "🇧🇷", "group": "C", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "morocco", "nameZh": "摩洛哥", "nameEn": "Morocco", "flag": "🇲🇦", "group": "C", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "scotland", "nameZh": "苏格兰", "nameEn": "Scotland", "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "group": "C", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "haiti", "nameZh": "海地", "nameEn": "Haiti", "flag": "🇭🇹", "group": "C", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+
+    { "slug": "usa", "nameZh": "美国", "nameEn": "United States", "flag": "🇺🇸", "group": "D", "host": true, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "paraguay", "nameZh": "巴拉圭", "nameEn": "Paraguay", "flag": "🇵🇾", "group": "D", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "australia", "nameZh": "澳大利亚", "nameEn": "Australia", "flag": "🇦🇺", "group": "D", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "turkiye", "nameZh": "土耳其", "nameEn": "Türkiye", "flag": "🇹🇷", "group": "D", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+
+    { "slug": "germany", "nameZh": "德国", "nameEn": "Germany", "flag": "🇩🇪", "group": "E", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "ecuador", "nameZh": "厄瓜多尔", "nameEn": "Ecuador", "flag": "🇪🇨", "group": "E", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "ivory-coast", "nameZh": "科特迪瓦", "nameEn": "Ivory Coast", "flag": "🇨🇮", "group": "E", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "curacao", "nameZh": "库拉索", "nameEn": "Curaçao", "flag": "🇨🇼", "group": "E", "host": false, "debut": true, "fifaRank": null, "bioZh": null },
+
+    { "slug": "netherlands", "nameZh": "荷兰", "nameEn": "Netherlands", "flag": "🇳🇱", "group": "F", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "japan", "nameZh": "日本", "nameEn": "Japan", "flag": "🇯🇵", "group": "F", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "tunisia", "nameZh": "突尼斯", "nameEn": "Tunisia", "flag": "🇹🇳", "group": "F", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "sweden", "nameZh": "瑞典", "nameEn": "Sweden", "flag": "🇸🇪", "group": "F", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+
+    { "slug": "belgium", "nameZh": "比利时", "nameEn": "Belgium", "flag": "🇧🇪", "group": "G", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "iran", "nameZh": "伊朗", "nameEn": "Iran", "flag": "🇮🇷", "group": "G", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "egypt", "nameZh": "埃及", "nameEn": "Egypt", "flag": "🇪🇬", "group": "G", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "new-zealand", "nameZh": "新西兰", "nameEn": "New Zealand", "flag": "🇳🇿", "group": "G", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+
+    { "slug": "spain", "nameZh": "西班牙", "nameEn": "Spain", "flag": "🇪🇸", "group": "H", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "uruguay", "nameZh": "乌拉圭", "nameEn": "Uruguay", "flag": "🇺🇾", "group": "H", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "saudi-arabia", "nameZh": "沙特阿拉伯", "nameEn": "Saudi Arabia", "flag": "🇸🇦", "group": "H", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "cape-verde", "nameZh": "佛得角", "nameEn": "Cape Verde", "flag": "🇨🇻", "group": "H", "host": false, "debut": true, "fifaRank": null, "bioZh": null },
+
+    { "slug": "france", "nameZh": "法国", "nameEn": "France", "flag": "🇫🇷", "group": "I", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "senegal", "nameZh": "塞内加尔", "nameEn": "Senegal", "flag": "🇸🇳", "group": "I", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "norway", "nameZh": "挪威", "nameEn": "Norway", "flag": "🇳🇴", "group": "I", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "iraq", "nameZh": "伊拉克", "nameEn": "Iraq", "flag": "🇮🇶", "group": "I", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+
+    { "slug": "argentina", "nameZh": "阿根廷", "nameEn": "Argentina", "flag": "🇦🇷", "group": "J", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "austria", "nameZh": "奥地利", "nameEn": "Austria", "flag": "🇦🇹", "group": "J", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "algeria", "nameZh": "阿尔及利亚", "nameEn": "Algeria", "flag": "🇩🇿", "group": "J", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "jordan", "nameZh": "约旦", "nameEn": "Jordan", "flag": "🇯🇴", "group": "J", "host": false, "debut": true, "fifaRank": null, "bioZh": null },
+
+    { "slug": "portugal", "nameZh": "葡萄牙", "nameEn": "Portugal", "flag": "🇵🇹", "group": "K", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "colombia", "nameZh": "哥伦比亚", "nameEn": "Colombia", "flag": "🇨🇴", "group": "K", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "uzbekistan", "nameZh": "乌兹别克斯坦", "nameEn": "Uzbekistan", "flag": "🇺🇿", "group": "K", "host": false, "debut": true, "fifaRank": null, "bioZh": null },
+    { "slug": "dr-congo", "nameZh": "刚果（金）", "nameEn": "DR Congo", "flag": "🇨🇩", "group": "K", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+
+    { "slug": "england", "nameZh": "英格兰", "nameEn": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "group": "L", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "croatia", "nameZh": "克罗地亚", "nameEn": "Croatia", "flag": "🇭🇷", "group": "L", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "panama", "nameZh": "巴拿马", "nameEn": "Panama", "flag": "🇵🇦", "group": "L", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "ghana", "nameZh": "加纳", "nameEn": "Ghana", "flag": "🇬🇭", "group": "L", "host": false, "debut": false, "fifaRank": null, "bioZh": null }
+  ]
+}

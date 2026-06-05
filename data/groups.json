@@ -1,0 +1,130 @@
+{
+  "_meta": {
+    "tournament": "2026 FIFA World Cup",
+    "drawDate": "2025-12-05",
+    "source": "Official final draw (confirmed). Verified via NBC Sports / CBS Sports, 2026-06.",
+    "note": "standings 字段为占位，小组赛开打后逐场更新。played/won/drawn/lost/gf/ga/points 初始为 0。"
+  },
+  "groups": [
+    {
+      "group": "A",
+      "teams": ["mexico", "south-korea", "south-africa", "czechia"],
+      "standings": [
+        { "team": "mexico", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "south-korea", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "south-africa", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "czechia", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ]
+    },
+    {
+      "group": "B",
+      "teams": ["canada", "switzerland", "qatar", "bosnia-herzegovina"],
+      "standings": [
+        { "team": "canada", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "switzerland", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "qatar", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "bosnia-herzegovina", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ]
+    },
+    {
+      "group": "C",
+      "teams": ["brazil", "morocco", "scotland", "haiti"],
+      "standings": [
+        { "team": "brazil", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "morocco", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "scotland", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "haiti", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ]
+    },
+    {
+      "group": "D",
+      "teams": ["usa", "paraguay", "australia", "turkiye"],
+      "standings": [
+        { "team": "usa", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "paraguay", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "australia", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "turkiye", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ]
+    },
+    {
+      "group": "E",
+      "teams": ["germany", "ecuador", "ivory-coast", "curacao"],
+      "standings": [
+        { "team": "germany", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "ecuador", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "ivory-coast", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "curacao", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ]
+    },
+    {
+      "group": "F",
+      "teams": ["netherlands", "japan", "tunisia", "sweden"],
+      "standings": [
+        { "team": "netherlands", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "japan", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "tunisia", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "sweden", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ]
+    },
+    {
+      "group": "G",
+      "teams": ["belgium", "iran", "egypt", "new-zealand"],
+      "standings": [
+        { "team": "belgium", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "iran", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "egypt", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "new-zealand", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ]
+    },
+    {
+      "group": "H",
+      "teams": ["spain", "uruguay", "saudi-arabia", "cape-verde"],
+      "standings": [
+        { "team": "spain", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "uruguay", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "saudi-arabia", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "cape-verde", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ]
+    },
+    {
+      "group": "I",
+      "teams": ["france", "senegal", "norway", "iraq"],
+      "standings": [
+        { "team": "france", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "senegal", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "norway", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "iraq", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ]
+    },
+    {
+      "group": "J",
+      "teams": ["argentina", "austria", "algeria", "jordan"],
+      "standings": [
+        { "team": "argentina", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "austria", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "algeria", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "jordan", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ]
+    },
+    {
+      "group": "K",
+      "teams": ["portugal", "colombia", "uzbekistan", "dr-congo"],
+      "standings": [
+        { "team": "portugal", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "colombia", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "uzbekistan", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "dr-congo", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ]
+    },
+    {
+      "group": "L",
+      "teams": ["england", "croatia", "panama", "ghana"],
+      "standings": [
+        { "team": "england", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "croatia", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "panama", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 },
+        { "team": "ghana", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "points": 0 }
+      ]
+    }
+  ]
+}

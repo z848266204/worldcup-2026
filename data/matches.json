@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "tournament": "2026 FIFA World Cup",
+    "coverage": "揭幕周 Opening week: 2026-06-11 → 2026-06-15 (共 16 场，FIFA 官方第 1–16 号比赛)",
+    "source": "对阵与开球时间: CBS Sports / NBC Sports (2026-06)。分组: 官方抽签。",
+    "timeNote": "kickoffUTC 为权威 UTC 时间 (ISO 8601)，前端用它本地化显示（北京时间 = UTC+8，沙特/利雅得 = UTC+3）。kickoffET 为美东时间(EDT, UTC-4)人类参考。比分开赛后填写。",
+    "venueNote": "venueConfirmed=false 的场次，场馆尚未交叉核实，venue/city 留 null，venueCandidates 给出候选城市，请开赛前核实后填入。",
+    "stage": "group"
+  },
+  "matches": [
+    { "id": "m1", "matchNumber": 1, "matchday": "2026-06-11", "kickoffUTC": "2026-06-11T19:00:00Z", "kickoffET": "15:00", "stage": "group", "group": "A", "home": "mexico", "away": "south-africa", "venue": "Estadio Azteca", "city": "Mexico City", "country": "Mexico", "venueConfirmed": true, "homeScore": null, "awayScore": null, "status": "scheduled" },
+    { "id": "m2", "matchNumber": 2, "matchday": "2026-06-11", "kickoffUTC": "2026-06-12T02:00:00Z", "kickoffET": "22:00", "stage": "group", "group": "A", "home": "south-korea", "away": "czechia", "venue": "Estadio Guadalajara", "city": "Guadalajara", "country": "Mexico", "venueConfirmed": true, "homeScore": null, "awayScore": null, "status": "scheduled" },
+
+    { "id": "m3", "matchNumber": 3, "matchday": "2026-06-12", "kickoffUTC": "2026-06-12T19:00:00Z", "kickoffET": "15:00", "stage": "group", "group": "B", "home": "canada", "away": "bosnia-herzegovina", "venue": "BMO Field", "city": "Toronto", "country": "Canada", "venueConfirmed": true, "homeScore": null, "awayScore": null, "status": "scheduled" },
+    { "id": "m4", "matchNumber": 4, "matchday": "2026-06-12", "kickoffUTC": "2026-06-13T01:00:00Z", "kickoffET": "21:00", "stage": "group", "group": "D", "home": "usa", "away": "paraguay", "venue": "SoFi Stadium", "city": "Los Angeles (Inglewood)", "country": "USA", "venueConfirmed": true, "homeScore": null, "awayScore": null, "status": "scheduled" },
+
+    { "id": "m5", "matchNumber": 7, "matchday": "2026-06-13", "kickoffUTC": "2026-06-13T19:00:00Z", "kickoffET": "15:00", "stage": "group", "group": "B", "home": "qatar", "away": "switzerland", "venue": null, "city": null, "country": "USA", "venueConfirmed": false, "venueCandidates": ["MetLife Stadium (NY/NJ)", "Levi's Stadium (SF Bay Area)"], "homeScore": null, "awayScore": null, "status": "scheduled" },
+    { "id": "m6", "matchNumber": 8, "matchday": "2026-06-13", "kickoffUTC": "2026-06-13T22:00:00Z", "kickoffET": "18:00", "stage": "group", "group": "C", "home": "brazil", "away": "morocco", "venue": null, "city": null, "country": "USA", "venueConfirmed": false, "venueCandidates": ["MetLife Stadium (NY/NJ)", "Levi's Stadium (SF Bay Area)"], "homeScore": null, "awayScore": null, "status": "scheduled" },
+    { "id": "m7", "matchNumber": 5, "matchday": "2026-06-13", "kickoffUTC": "2026-06-14T01:00:00Z", "kickoffET": "21:00", "stage": "group", "group": "C", "home": "haiti", "away": "scotland", "venue": "Gillette Stadium (Boston Stadium)", "city": "Boston (Foxborough)", "country": "USA", "venueConfirmed": true, "homeScore": null, "awayScore": null, "status": "scheduled" },
+    { "id": "m8", "matchNumber": 6, "matchday": "2026-06-13", "kickoffUTC": "2026-06-14T04:00:00Z", "kickoffET": "00:00 (次日凌晨)", "stage": "group", "group": "D", "home": "australia", "away": "turkiye", "venue": "BC Place", "city": "Vancouver", "country": "Canada", "venueConfirmed": true, "homeScore": null, "awayScore": null, "status": "scheduled" },
+
+    { "id": "m9", "matchNumber": 10, "matchday": "2026-06-14", "kickoffUTC": "2026-06-14T17:00:00Z", "kickoffET": "13:00", "stage": "group", "group": "E", "home": "germany", "away": "curacao", "venue": "NRG Stadium", "city": "Houston", "country": "USA", "venueConfirmed": true, "homeScore": null, "awayScore": null, "status": "scheduled" },
+    { "id": "m10", "matchNumber": 11, "matchday": "2026-06-14", "kickoffUTC": "2026-06-14T20:00:00Z", "kickoffET": "16:00", "stage": "group", "group": "F", "home": "netherlands", "away": "japan", "venue": "AT&T Stadium (Dallas Stadium)", "city": "Arlington (Dallas)", "country": "USA", "venueConfirmed": true, "homeScore": null, "awayScore": null, "status": "scheduled" },
+    { "id": "m11", "matchNumber": 9, "matchday": "2026-06-14", "kickoffUTC": "2026-06-14T23:00:00Z", "kickoffET": "19:00", "stage": "group", "group": "E", "home": "ivory-coast", "away": "ecuador", "venue": "Lincoln Financial Field", "city": "Philadelphia", "country": "USA", "venueConfirmed": true, "homeScore": null, "awayScore": null, "status": "scheduled" },
+    { "id": "m12", "matchNumber": 12, "matchday": "2026-06-14", "kickoffUTC": "2026-06-15T02:00:00Z", "kickoffET": "22:00", "stage": "group", "group": "F", "home": "sweden", "away": "tunisia", "venue": "Estadio BBVA", "city": "Monterrey", "country": "Mexico", "venueConfirmed": true, "homeScore": null, "awayScore": null, "status": "scheduled" },
+
+    { "id": "m13", "matchNumber": null, "matchday": "2026-06-15", "kickoffUTC": "2026-06-15T16:00:00Z", "kickoffET": "12:00", "stage": "group", "group": "H", "home": "spain", "away": "cape-verde", "venue": null, "city": null, "country": "USA", "venueConfirmed": false, "venueCandidates": ["Atlanta Stadium", "Los Angeles Stadium (SoFi)", "Seattle Stadium (Lumen Field)"], "homeScore": null, "awayScore": null, "status": "scheduled" },
+    { "id": "m14", "matchNumber": null, "matchday": "2026-06-15", "kickoffUTC": "2026-06-15T19:00:00Z", "kickoffET": "15:00", "stage": "group", "group": "G", "home": "belgium", "away": "egypt", "venue": null, "city": null, "country": "USA", "venueConfirmed": false, "venueCandidates": ["Atlanta Stadium", "Los Angeles Stadium (SoFi)", "Seattle Stadium (Lumen Field)"], "homeScore": null, "awayScore": null, "status": "scheduled" },
+    { "id": "m15", "matchNumber": 13, "matchday": "2026-06-15", "kickoffUTC": "2026-06-15T22:00:00Z", "kickoffET": "18:00", "stage": "group", "group": "H", "home": "saudi-arabia", "away": "uruguay", "venue": "Hard Rock Stadium (Miami Stadium)", "city": "Miami", "country": "USA", "venueConfirmed": true, "homeScore": null, "awayScore": null, "status": "scheduled" },
+    { "id": "m16", "matchNumber": null, "matchday": "2026-06-15", "kickoffUTC": "2026-06-16T01:00:00Z", "kickoffET": "21:00", "stage": "group", "group": "G", "home": "iran", "away": "new-zealand", "venue": null, "city": null, "country": "USA", "venueConfirmed": false, "venueCandidates": ["Atlanta Stadium", "Los Angeles Stadium (SoFi)", "Seattle Stadium (Lumen Field)"], "homeScore": null, "awayScore": null, "status": "scheduled" }
+  ]
+}

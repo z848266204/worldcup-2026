@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "player-a1",
+    "name": "占位球员一",
+    "teamSlug": "team-a1",
+    "position": "待补充",
+    "number": null,
+    "analysis": "球员分析正文待补充。"
+  },
+  {
+    "slug": "player-a2",
+    "name": "占位球员二",
+    "teamSlug": "team-a2",
+    "position": "待补充",
+    "number": null,
+    "analysis": "球员分析正文待补充。"
+  }
+]
