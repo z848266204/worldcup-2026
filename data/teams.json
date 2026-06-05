@@ -1,8 +1,8 @@
 {
   "_meta": {
     "tournament": "2026 FIFA World Cup",
-    "source": "Official final draw (confirmed). 48 teams across 12 groups.",
-    "note": "fifaRank 与 bioZh 留空，由你填写。debut=true 为本届世界杯首次参赛的队伍（佛得角、库拉索、约旦、乌兹别克斯坦）。"
+    "source": "Official final draw (confirmed). 48 teams across 12 groups. 8 支重点球队 bioZh 已填写（截至 2026-06 资料，伤情/阵容请开赛前再核实）。",
+    "note": "fifaRank 留空。debut=true 为本届首次参赛（佛得角、库拉索、约旦、乌兹别克斯坦）。其余 40 队 bioZh 待补充。"
   },
   "teams": [
     { "slug": "mexico", "nameZh": "墨西哥", "nameEn": "Mexico", "flag": "🇲🇽", "group": "A", "host": true, "debut": false, "fifaRank": null, "bioZh": null },
@@ -15,7 +15,7 @@
     { "slug": "qatar", "nameZh": "卡塔尔", "nameEn": "Qatar", "flag": "🇶🇦", "group": "B", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "bosnia-herzegovina", "nameZh": "波黑", "nameEn": "Bosnia and Herzegovina", "flag": "🇧🇦", "group": "B", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
 
-    { "slug": "brazil", "nameZh": "巴西", "nameEn": "Brazil", "flag": "🇧🇷", "group": "C", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "brazil", "nameZh": "巴西", "nameEn": "Brazil", "flag": "🇧🇷", "group": "C", "host": false, "debut": false, "fifaRank": null, "bioZh": "五星巴西是世界杯历史上最成功的球队，五度问鼎，但距离上一座冠军（2002 年）已逾二十年。本届由维尼修斯、拉菲尼亚领衔进攻，马尔基尼奥斯坐镇后防，攻守两端都有世界级球员。身处 C 组，同组摩洛哥、苏格兰、海地，揭幕周与摩洛哥的对话是一场焦点战。桑巴军团的夺冠饥渴感十足，是公认的夺冠热门之一。" },
     { "slug": "morocco", "nameZh": "摩洛哥", "nameEn": "Morocco", "flag": "🇲🇦", "group": "C", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "scotland", "nameZh": "苏格兰", "nameEn": "Scotland", "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "group": "C", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "haiti", "nameZh": "海地", "nameEn": "Haiti", "flag": "🇭🇹", "group": "C", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
@@ -25,12 +25,12 @@
     { "slug": "australia", "nameZh": "澳大利亚", "nameEn": "Australia", "flag": "🇦🇺", "group": "D", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "turkiye", "nameZh": "土耳其", "nameEn": "Türkiye", "flag": "🇹🇷", "group": "D", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
 
-    { "slug": "germany", "nameZh": "德国", "nameEn": "Germany", "flag": "🇩🇪", "group": "E", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "germany", "nameZh": "德国", "nameEn": "Germany", "flag": "🇩🇪", "group": "E", "host": false, "debut": false, "fifaRank": null, "bioZh": "四夺世界杯（1954、1974、1990、2014）的传统豪门，但连续两届（2018、2022）止步小组赛，本届亟需正名。主帅纳格尔斯曼麾下，穆西亚拉与维尔茨组成中场双核，基米希担任队长，40 岁的传奇门将诺伊尔退役复出、迎来第五届世界杯。锋线深度是隐忧，但中场创造力位列本届顶级。身处 E 组，同组厄瓜多尔、科特迪瓦与新军库拉索，出线形势乐观。" },
     { "slug": "ecuador", "nameZh": "厄瓜多尔", "nameEn": "Ecuador", "flag": "🇪🇨", "group": "E", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "ivory-coast", "nameZh": "科特迪瓦", "nameEn": "Ivory Coast", "flag": "🇨🇮", "group": "E", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "curacao", "nameZh": "库拉索", "nameEn": "Curaçao", "flag": "🇨🇼", "group": "E", "host": false, "debut": true, "fifaRank": null, "bioZh": null },
 
-    { "slug": "netherlands", "nameZh": "荷兰", "nameEn": "Netherlands", "flag": "🇳🇱", "group": "F", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "netherlands", "nameZh": "荷兰", "nameEn": "Netherlands", "flag": "🇳🇱", "group": "F", "host": false, "debut": false, "fifaRank": null, "bioZh": "三次打进世界杯决赛却三度饮恨，“橙衣军团”至今仍在追逐队史首座世界杯冠军。主帅科曼第二度执教，队长范戴克领衔全队最厚实的防线之一，弗兰基·德容与加克波扛起攻击大旗。遗憾的是核心创造者哈维·西蒙斯因十字韧带断裂赛季报销，是开赛前的重大损失。身处 F 组，同组日本、突尼斯、瑞典，出线难度不大。" },
     { "slug": "japan", "nameZh": "日本", "nameEn": "Japan", "flag": "🇯🇵", "group": "F", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "tunisia", "nameZh": "突尼斯", "nameEn": "Tunisia", "flag": "🇹🇳", "group": "F", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "sweden", "nameZh": "瑞典", "nameEn": "Sweden", "flag": "🇸🇪", "group": "F", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
@@ -40,27 +40,27 @@
     { "slug": "egypt", "nameZh": "埃及", "nameEn": "Egypt", "flag": "🇪🇬", "group": "G", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "new-zealand", "nameZh": "新西兰", "nameEn": "New Zealand", "flag": "🇳🇿", "group": "G", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
 
-    { "slug": "spain", "nameZh": "西班牙", "nameEn": "Spain", "flag": "🇪🇸", "group": "H", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "spain", "nameZh": "西班牙", "nameEn": "Spain", "flag": "🇪🇸", "group": "H", "host": false, "debut": false, "fifaRank": null, "bioZh": "2010 年世界杯冠军、2024 年欧洲杯冠军，是本届赔率榜上的头号夺冠热门。主帅德拉富恩特打造的传控体系整体性极强，踢着当今足坛最赏心悦目的足球之一。年轻天才亚马尔是进攻核心，但截至发稿其伤情仍是球队最大的不确定因素。身处 H 组，同组乌拉圭、沙特阿拉伯与新军佛得角，小组出线压力不大。" },
     { "slug": "uruguay", "nameZh": "乌拉圭", "nameEn": "Uruguay", "flag": "🇺🇾", "group": "H", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "saudi-arabia", "nameZh": "沙特阿拉伯", "nameEn": "Saudi Arabia", "flag": "🇸🇦", "group": "H", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "cape-verde", "nameZh": "佛得角", "nameEn": "Cape Verde", "flag": "🇨🇻", "group": "H", "host": false, "debut": true, "fifaRank": null, "bioZh": null },
 
-    { "slug": "france", "nameZh": "法国", "nameEn": "France", "flag": "🇫🇷", "group": "I", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "france", "nameZh": "法国", "nameEn": "France", "flag": "🇫🇷", "group": "I", "host": false, "debut": false, "fifaRank": null, "bioZh": "1998、2018 年两夺世界杯，2022 年屈居亚军，是本届与西班牙并列的夺冠大热。主帅德尚迎来执教生涯的最后一届大赛。姆巴佩领衔，身边是现任金球奖得主登贝莱与拜仁的奥利塞，这套攻击线被誉为本届最具破坏力的进攻组合，阵容深度奢侈。身处号称“死亡之组”的 I 组（同组塞内加尔、挪威、伊拉克），但实力足以确保头名出线。变数在于姆巴佩的伤情恢复时间线。" },
     { "slug": "senegal", "nameZh": "塞内加尔", "nameEn": "Senegal", "flag": "🇸🇳", "group": "I", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "norway", "nameZh": "挪威", "nameEn": "Norway", "flag": "🇳🇴", "group": "I", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "iraq", "nameZh": "伊拉克", "nameEn": "Iraq", "flag": "🇮🇶", "group": "I", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
 
-    { "slug": "argentina", "nameZh": "阿根廷", "nameEn": "Argentina", "flag": "🇦🇷", "group": "J", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "argentina", "nameZh": "阿根廷", "nameEn": "Argentina", "flag": "🇦🇷", "group": "J", "host": false, "debut": false, "fifaRank": null, "bioZh": "卫冕冠军，历史上三度捧杯（1978、1986、2022）。本届几乎可以确定是梅西的最后一届世界杯，“潘帕斯雄鹰”围绕他构建了一套经验与天赋兼备的阵容——劳塔罗、恩佐·费尔南德斯、J·阿尔瓦雷斯等均正值巅峰。身处 J 组，同组奥地利、阿尔及利亚与新军约旦，签运不错。如何合理分配老将体能、保护好核心，是卫冕之路的关键。" },
     { "slug": "austria", "nameZh": "奥地利", "nameEn": "Austria", "flag": "🇦🇹", "group": "J", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "algeria", "nameZh": "阿尔及利亚", "nameEn": "Algeria", "flag": "🇩🇿", "group": "J", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "jordan", "nameZh": "约旦", "nameEn": "Jordan", "flag": "🇯🇴", "group": "J", "host": false, "debut": true, "fifaRank": null, "bioZh": null },
 
-    { "slug": "portugal", "nameZh": "葡萄牙", "nameEn": "Portugal", "flag": "🇵🇹", "group": "K", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "portugal", "nameZh": "葡萄牙", "nameEn": "Portugal", "flag": "🇵🇹", "group": "K", "host": false, "debut": false, "fifaRank": null, "bioZh": "2016 年欧洲杯冠军，世界杯历史最好成绩为殿军。C 罗领衔，这同样很可能是他的最后一届世界杯。阵中世界级球员众多，加上双位数的夺冠赔率，被不少人视为“值博率最高”的夺冠黑马。身处 K 组，同组哥伦比亚、乌兹别克斯坦、刚果（金）。如何让球队在 C 罗之外形成稳定的进攻火力，是其能走多远的关键。" },
     { "slug": "colombia", "nameZh": "哥伦比亚", "nameEn": "Colombia", "flag": "🇨🇴", "group": "K", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "uzbekistan", "nameZh": "乌兹别克斯坦", "nameEn": "Uzbekistan", "flag": "🇺🇿", "group": "K", "host": false, "debut": true, "fifaRank": null, "bioZh": null },
     { "slug": "dr-congo", "nameZh": "刚果（金）", "nameEn": "DR Congo", "flag": "🇨🇩", "group": "K", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
 
-    { "slug": "england", "nameZh": "英格兰", "nameEn": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "group": "L", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
+    { "slug": "england", "nameZh": "英格兰", "nameEn": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "group": "L", "host": false, "debut": false, "fifaRank": null, "bioZh": "自 1966 年本土夺冠后再未登顶，“三狮军团”长年背负“纸面强、临门弱”的标签。本届由图赫尔执教，战术框架成型：凯恩与赖斯坐镇，贝林厄姆正值当打之年，阵容成熟而均衡。身处 L 组，同组克罗地亚、巴拿马、加纳，签运友好，有利于小组赛保存体力。能否突破自己、在淘汰赛走得更远，是本届最大看点。" },
     { "slug": "croatia", "nameZh": "克罗地亚", "nameEn": "Croatia", "flag": "🇭🇷", "group": "L", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "panama", "nameZh": "巴拿马", "nameEn": "Panama", "flag": "🇵🇦", "group": "L", "host": false, "debut": false, "fifaRank": null, "bioZh": null },
     { "slug": "ghana", "nameZh": "加纳", "nameEn": "Ghana", "flag": "🇬🇭", "group": "L", "host": false, "debut": false, "fifaRank": null, "bioZh": null }
