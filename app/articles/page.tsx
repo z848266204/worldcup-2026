@@ -18,7 +18,7 @@ export default function ArticlesPage() {
   return (
     <PageShell
       title="前瞻文章"
-      description="Markdown 驱动的文章列表，内容来自 content/articles/*.md。"
+      description="世界杯前瞻、球队分析与赛事解读。"
     >
       <section className="space-y-4">
         {articles.map((article) => (

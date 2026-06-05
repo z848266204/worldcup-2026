@@ -19,7 +19,7 @@ export default function GroupsPage() {
   return (
     <PageShell
       title="小组一览"
-      description="A-L 共 12 个小组，每组 4 支球队；积分榜字段来自 data/groups.json。"
+      description="A-L 共 12 个小组，每组 4 支球队，积分榜随赛事进程持续更新。"
     >
       <section className="grid gap-5 lg:grid-cols-2">
         {groups.map((group) => (

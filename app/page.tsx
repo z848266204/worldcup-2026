@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <PageShell
       title="2026 美加墨世界杯中文资讯站"
-      description="第一阶段脚手架：先跑通赛程、小组、球队、球员、预测和前瞻文章的基础结构。"
+      description="聚合 2026 世界杯赛程、小组分组、球队资料、赛事前瞻与中文解读。"
     >
       <OpeningCountdown />
 
@@ -28,7 +28,7 @@ export default function Home() {
         <div className="rounded-lg border border-slate-200 bg-white p-5">
           <h2 className="text-lg font-semibold text-slate-950">近期比赛</h2>
           <p className="mt-2 text-sm text-slate-600">
-            已接入 {matches.length} 条占位比赛数据。
+            已整理揭幕周 {matches.length} 场赛程，支持按日期和小组查看。
           </p>
           <Link className="mt-4 inline-block text-sm font-medium text-emerald-700" href="/schedule">
             查看赛程
@@ -37,7 +37,7 @@ export default function Home() {
         <div className="rounded-lg border border-slate-200 bg-white p-5">
           <h2 className="text-lg font-semibold text-slate-950">夺冠热门</h2>
           <p className="mt-2 text-sm text-slate-600">
-            本阶段只保留预测入口，不填真实判断。
+            跟踪强队走势、晋级形势与关键比赛看点。
           </p>
           <Link className="mt-4 inline-block text-sm font-medium text-emerald-700" href="/predictions">
             查看预测板块
@@ -46,7 +46,7 @@ export default function Home() {
         <div className="rounded-lg border border-slate-200 bg-white p-5">
           <h2 className="text-lg font-semibold text-slate-950">球队资料</h2>
           <p className="mt-2 text-sm text-slate-600">
-            已接入 {teams.length} 条占位球队数据。
+            浏览全部 {teams.length} 支参赛球队的小组、赛程与基础资料。
           </p>
           <Link className="mt-4 inline-block text-sm font-medium text-emerald-700" href="/teams">
             查看球队

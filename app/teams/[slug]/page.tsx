@@ -55,7 +55,7 @@ export default async function TeamPage({ params }: TeamPageProps) {
   return (
     <PageShell
       title={`${team.flag ? `${team.flag} ` : ""}${team.nameZh}`}
-      description="球队资料、揭幕周赛程与简介占位均来自本地 data/ 文件。"
+      description="查看球队基础资料、所属小组和揭幕周赛程。"
     >
       <section className="grid gap-5 lg:grid-cols-[1fr_1.3fr]">
         <article className="rounded-lg border border-slate-200 bg-white p-5">
@@ -72,7 +72,7 @@ export default async function TeamPage({ params }: TeamPageProps) {
           <dl className="mt-6 grid gap-4 text-sm text-slate-700 sm:grid-cols-2">
             <div>
               <dt className="font-medium text-slate-950">所属小组</dt>
-              <dd>{team.group ?? "待补充"}</dd>
+              <dd>{team.group ?? "分组信息更新中"}</dd>
             </div>
             <div>
               <dt className="font-medium text-slate-950">世界杯新军</dt>
@@ -84,14 +84,14 @@ export default async function TeamPage({ params }: TeamPageProps) {
             </div>
             <div>
               <dt className="font-medium text-slate-950">FIFA 排名</dt>
-              <dd>{team.fifaRank ?? "待补充"}</dd>
+              <dd>{team.fifaRank ?? "排名信息更新中"}</dd>
             </div>
           </dl>
 
           <div className="mt-6 rounded-md bg-slate-50 p-4">
             <h3 className="font-semibold text-slate-950">球队简介</h3>
             <p className="mt-2 text-sm leading-6 text-slate-600">
-              {team.bioZh ?? "球队简介待补充。"}
+              {team.bioZh ?? "球队简介正在整理中。"}
             </p>
           </div>
         </article>
@@ -145,7 +145,7 @@ export default async function TeamPage({ params }: TeamPageProps) {
                 );
               })
             ) : (
-              <p className="text-sm text-slate-600">揭幕周比赛待补充。</p>
+              <p className="text-sm text-slate-600">揭幕周赛程正在整理中。</p>
             )}
           </div>
         </section>

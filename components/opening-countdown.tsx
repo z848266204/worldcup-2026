@@ -42,7 +42,7 @@ export function OpeningCountdown() {
           </div>
         ))}
       </div>
-      <p className="mt-4 text-sm text-slate-600">占位目标时间：2026-06-11</p>
+      <p className="mt-4 text-sm text-slate-600">揭幕战：6月11日 墨西哥 vs 南非</p>
     </section>
   );
 }
