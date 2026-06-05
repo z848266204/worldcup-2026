@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
-import { siteConfig } from "@/lib/seo";
+import { getSiteUrl, siteConfig } from "@/lib/seo";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteConfig.url),
+  metadataBase: new URL(getSiteUrl()),
   title: siteConfig.name,
   description: siteConfig.description,
   openGraph: {
