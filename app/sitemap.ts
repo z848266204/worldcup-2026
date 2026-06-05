@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { getArticles } from "@/lib/articles";
 import { getTeams } from "@/lib/data";
 import { absoluteUrl, staticSitemapPaths } from "@/lib/seo";
 
@@ -16,6 +17,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "weekly",
     priority: 0.7,
   }));
+  const articleUrls: MetadataRoute.Sitemap = getArticles().map((article) => ({
+    url: absoluteUrl(`/articles/${article.slug}`),
+    lastModified: article.date ? new Date(article.date) : now,
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
 
-  return [...staticUrls, ...teamUrls];
+  return [...staticUrls, ...teamUrls, ...articleUrls];
 }
