@@ -37,6 +37,9 @@ export default function RootLayout({
       lang="zh-CN"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <meta name="google-site-verification" content="daZbN6-B71KR3_2TGvvBhu5MwE4KIV_Khh72zDs7r-g" />
+      </head>
       <body className="min-h-full bg-slate-50 text-slate-900">
         <div className="flex min-h-screen flex-col">
           <SiteHeader />
