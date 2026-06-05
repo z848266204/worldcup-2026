@@ -1,7 +1,19 @@
+import type { Metadata } from "next";
 import { PageShell } from "@/components/page-shell";
+import { createPageMetadata } from "@/lib/seo";
 
 interface ArticlePageProps {
   params: Promise<{ slug: string }>;
+}
+
+export async function generateMetadata({ params }: ArticlePageProps): Promise<Metadata> {
+  const { slug } = await params;
+
+  return createPageMetadata({
+    title: "2026 世界杯前瞻文章 - 内容待补充",
+    description: "2026 世界杯前瞻文章占位页，后续将接入 Markdown 内容和 frontmatter。",
+    path: `/articles/${slug}`,
+  });
 }
 
 export function generateStaticParams() {

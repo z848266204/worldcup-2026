@@ -1,4 +1,14 @@
+import type { Metadata } from "next";
 import { PageShell } from "@/components/page-shell";
+import { createPageMetadata } from "@/lib/seo";
+
+export function generateMetadata(): Metadata {
+  return createPageMetadata({
+    title: "2026 世界杯预测 - 夺冠、晋级与比分预测",
+    description: "2026 世界杯预测板块入口，后续承载夺冠预测、晋级形势和单场比分预测。",
+    path: "/predictions",
+  });
+}
 
 export default function PredictionsPage() {
   return (

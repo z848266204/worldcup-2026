@@ -61,7 +61,7 @@ function MatchCard({ match, teams }: { match: Match; teams: Map<string, Team> })
   const location = [match.city, match.country].filter(Boolean).join("，");
 
   return (
-    <article className="rounded-lg border border-slate-200 bg-white p-4">
+    <article id={match.id} className="rounded-lg border border-slate-200 bg-white p-4">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
         <div className="min-w-0 space-y-2">
           <div className="flex flex-wrap items-center gap-2 text-xs font-medium text-slate-500">

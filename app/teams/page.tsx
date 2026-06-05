@@ -1,7 +1,17 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { PageShell } from "@/components/page-shell";
 import { getGroups, getTeams } from "@/lib/data";
 import { getTeamLabel, makeTeamMap } from "@/lib/format";
+import { createPageMetadata } from "@/lib/seo";
+
+export function generateMetadata(): Metadata {
+  return createPageMetadata({
+    title: "2026 世界杯球队 - 48队名单与小组分布",
+    description: "按小组查看 2026 世界杯 48 支参赛球队，进入球队详情了解分组和揭幕周赛程。",
+    path: "/teams",
+  });
+}
 
 export default function TeamsPage() {
   const teams = getTeams();

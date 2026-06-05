@@ -1,7 +1,17 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { OpeningCountdown } from "@/components/opening-countdown";
 import { PageShell } from "@/components/page-shell";
 import { getMatches, getTeams } from "@/lib/data";
+import { createPageMetadata } from "@/lib/seo";
+
+export function generateMetadata(): Metadata {
+  return createPageMetadata({
+    title: "2026 世界杯中文资讯站 - 赛程、小组、球队与前瞻",
+    description: "查看 2026 FIFA 世界杯中文赛程、小组分组、球队资料和赛前前瞻入口。",
+    path: "/",
+  });
+}
 
 export default function Home() {
   const matches = getMatches();

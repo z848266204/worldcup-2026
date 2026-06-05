@@ -1,5 +1,15 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { PageShell } from "@/components/page-shell";
+import { createPageMetadata } from "@/lib/seo";
+
+export function generateMetadata(): Metadata {
+  return createPageMetadata({
+    title: "2026 世界杯前瞻 - 赛前分析与球队介绍",
+    description: "2026 世界杯前瞻文章入口，后续发布赛前分析、球队介绍和球员观察。",
+    path: "/articles",
+  });
+}
 
 export default function ArticlesPage() {
   return (

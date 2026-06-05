@@ -1,6 +1,16 @@
+import type { Metadata } from "next";
 import { PageShell } from "@/components/page-shell";
 import { getGroups, getTeams } from "@/lib/data";
 import { getTeamLabel, makeTeamMap } from "@/lib/format";
+import { createPageMetadata } from "@/lib/seo";
+
+export function generateMetadata(): Metadata {
+  return createPageMetadata({
+    title: "2026 世界杯小组 - A到L组分组与积分榜",
+    description: "查看 2026 世界杯 A-L 共 12 个小组的球队名单和积分榜数据。",
+    path: "/groups",
+  });
+}
 
 export default function GroupsPage() {
   const groups = getGroups();

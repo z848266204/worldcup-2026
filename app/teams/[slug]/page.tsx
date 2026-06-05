@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PageShell } from "@/components/page-shell";
 import { getMatches, getTeamBySlug, getTeams } from "@/lib/data";
@@ -9,9 +10,29 @@ import {
   getTeamLabel,
   makeTeamMap,
 } from "@/lib/format";
+import { createPageMetadata } from "@/lib/seo";
 
 interface TeamPageProps {
   params: Promise<{ slug: string }>;
+}
+
+export async function generateMetadata({ params }: TeamPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const team = getTeamBySlug(slug);
+
+  if (!team) {
+    return createPageMetadata({
+      title: "2026 世界杯球队 - 未找到",
+      description: "该球队详情页暂未找到对应数据。",
+      path: `/teams/${slug}`,
+    });
+  }
+
+  return createPageMetadata({
+    title: `${team.nameZh}世界杯2026 - 分组、赛程、球员阵容`,
+    description: `${team.nameZh}（${team.nameEn}）2026 世界杯球队页，查看所属小组、揭幕周赛程和球队简介。`,
+    path: `/teams/${team.slug}`,
+  });
 }
 
 export function generateStaticParams() {
