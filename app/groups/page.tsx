@@ -23,17 +23,22 @@ export default function GroupsPage() {
     >
       <section className="grid gap-5 lg:grid-cols-2">
         {groups.map((group) => (
-          <article key={group.group} className="rounded-lg border border-slate-200 bg-white p-4">
+          <article
+            key={group.group}
+            className="stadium-card rounded-2xl p-4 transition hover:-translate-y-1 hover:border-[color:var(--trophy-gold-soft)] sm:p-5"
+          >
             <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-              <h2 className="text-lg font-semibold text-slate-950">{group.group} 组</h2>
-              <p className="text-sm text-slate-500">
+              <h2 className="inline-flex w-fit rounded-full bg-[color:var(--stadium-blue)] px-3 py-1 text-sm font-black text-[color:var(--trophy-gold)]">
+                {group.group} 组
+              </h2>
+              <p className="text-sm font-medium text-[color:var(--muted)]">
                 {group.teams.map((team) => getTeamLabel(teamMap, team)).join(" / ")}
               </p>
             </div>
 
-            <div className="mt-4 overflow-x-auto">
+            <div className="mt-4 overflow-x-auto rounded-2xl border border-[color:var(--line-soft)]">
               <table className="min-w-full text-left text-sm">
-                <thead className="border-b border-slate-200 text-xs text-slate-500">
+                <thead className="bg-[color:var(--surface-soft)] text-xs font-bold text-[color:var(--muted)]">
                   <tr>
                     <th scope="col" className="whitespace-nowrap py-2 pr-4 font-medium">
                       球队
@@ -47,10 +52,10 @@ export default function GroupsPage() {
                     <th scope="col" className="px-2 py-2 font-medium">积分</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-slate-100 text-slate-700">
+                <tbody className="divide-y divide-[color:var(--line-soft)] bg-white text-[color:var(--muted)]">
                   {group.standings.map((standing) => (
-                    <tr key={standing.team}>
-                      <th scope="row" className="whitespace-nowrap py-3 pr-4 font-medium text-slate-950">
+                    <tr key={standing.team} className="transition hover:bg-[color:var(--surface-soft)]">
+                      <th scope="row" className="whitespace-nowrap py-3 pr-4 font-bold text-[color:var(--ink)]">
                         {getTeamLabel(teamMap, standing.team)}
                       </th>
                       <td className="px-2 py-3">{standing.played ?? 0}</td>
@@ -59,7 +64,7 @@ export default function GroupsPage() {
                       <td className="px-2 py-3">{standing.lost ?? 0}</td>
                       <td className="px-2 py-3">{standing.gf ?? 0}</td>
                       <td className="px-2 py-3">{standing.ga ?? 0}</td>
-                      <td className="px-2 py-3 font-semibold text-slate-950">{standing.points ?? 0}</td>
+                      <td className="px-2 py-3 font-black text-[color:var(--stadium-blue)]">{standing.points ?? 0}</td>
                     </tr>
                   ))}
                 </tbody>

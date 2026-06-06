@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Trophy } from "lucide-react";
 
 const navItems = [
   { href: "/schedule", label: "赛程" },
@@ -10,9 +11,12 @@ const navItems = [
 
 export function SiteHeader() {
   return (
-    <header className="border-b border-slate-200 bg-white/95">
-      <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-4 sm:px-6 lg:px-8">
-        <Link href="/" className="text-lg font-bold text-slate-950">
+    <header className="sticky top-0 z-50 border-b border-white/10 bg-[rgba(7,22,18,0.82)] shadow-lg shadow-black/10 backdrop-blur-xl">
+      <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-3 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
+        <Link href="/" className="inline-flex items-center gap-2 text-base font-bold text-white">
+          <span className="grid size-9 place-items-center rounded-full bg-[var(--trophy-gold)] text-[var(--stadium-blue)]">
+            <Trophy size={18} aria-hidden="true" />
+          </span>
           2026 世界杯中文资讯站
         </Link>
         <nav aria-label="主导航" className="flex flex-wrap gap-2">
@@ -20,7 +24,7 @@ export function SiteHeader() {
             <Link
               key={item.href}
               href={item.href}
-              className="rounded-md px-3 py-2 text-sm font-medium text-slate-700 transition hover:bg-emerald-50 hover:text-emerald-800"
+              className="rounded-full px-3 py-2 text-sm font-medium text-white/78 transition hover:bg-white/12 hover:text-[var(--trophy-gold-soft)]"
             >
               {item.label}
             </Link>

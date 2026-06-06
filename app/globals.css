@@ -1,8 +1,19 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f8fafc;
-  --foreground: #0f172a;
+  --background: #071612;
+  --foreground: #f8fafc;
+  --surface: #ffffff;
+  --surface-soft: #f7fbf8;
+  --stadium-blue: #071a2f;
+  --pitch-green: #0f6b45;
+  --pitch-green-deep: #073d30;
+  --trophy-gold: #d6a33a;
+  --trophy-gold-soft: #f5d889;
+  --line-soft: rgba(15, 23, 42, 0.1);
+  --ink: #0f172a;
+  --muted: #64748b;
+  --card-shadow: 0 18px 50px rgba(2, 12, 27, 0.14);
 }
 
 @theme inline {
@@ -15,4 +26,26 @@
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+::selection {
+  background: var(--trophy-gold);
+  color: var(--stadium-blue);
+}
+
+.stadium-shell {
+  background:
+    radial-gradient(circle at top left, rgba(214, 163, 58, 0.24), transparent 28rem),
+    radial-gradient(circle at 85% 10%, rgba(16, 185, 129, 0.2), transparent 24rem),
+    linear-gradient(135deg, var(--stadium-blue) 0%, var(--pitch-green-deep) 52%, #06100d 100%);
+}
+
+.stadium-card {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: var(--card-shadow);
+}
+
+.gold-ring {
+  box-shadow: inset 0 0 0 1px rgba(214, 163, 58, 0.35), 0 22px 60px rgba(214, 163, 58, 0.18);
 }

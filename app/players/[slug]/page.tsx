@@ -58,22 +58,24 @@ export default async function PlayerPage({ params }: PlayerPageProps) {
       title={playerName}
       description="查看球员所属球队、位置、号码和世界杯相关分析。"
     >
-      <article className="rounded-lg border border-slate-200 bg-white p-5">
-        <dl className="grid gap-4 text-sm text-slate-700 sm:grid-cols-2">
+      <article className="stadium-card rounded-2xl p-5 sm:p-6">
+        <dl className="grid gap-4 text-sm text-[color:var(--muted)] sm:grid-cols-2">
           <div>
-            <dt className="font-medium text-slate-950">所属球队</dt>
+            <dt className="font-bold text-[color:var(--ink)]">所属球队</dt>
             <dd>{getTeamName(player.teamSlug)}</dd>
           </div>
           <div>
-            <dt className="font-medium text-slate-950">位置</dt>
+            <dt className="font-bold text-[color:var(--ink)]">位置</dt>
             <dd>{playerPosition}</dd>
           </div>
           <div>
-            <dt className="font-medium text-slate-950">号码</dt>
+            <dt className="font-bold text-[color:var(--ink)]">号码</dt>
             <dd>{player.number ?? "资料更新中"}</dd>
           </div>
         </dl>
-        <p className="mt-5 leading-7 text-slate-700">{playerAnalysis}</p>
+        <p className="mt-5 rounded-2xl border border-[color:var(--line-soft)] bg-[color:var(--surface-soft)] p-4 leading-7 text-[color:var(--muted)]">
+          {playerAnalysis}
+        </p>
       </article>
     </PageShell>
   );

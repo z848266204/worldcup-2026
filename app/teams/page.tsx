@@ -25,8 +25,13 @@ export default function TeamsPage() {
     >
       <section className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
         {groups.map((group) => (
-          <article key={group.group} className="rounded-lg border border-slate-200 bg-white p-4">
-            <h2 className="text-lg font-semibold text-slate-950">{group.group} 组</h2>
+          <article
+            key={group.group}
+            className="stadium-card rounded-2xl p-4 transition hover:-translate-y-1 hover:border-[color:var(--trophy-gold-soft)]"
+          >
+            <h2 className="inline-flex rounded-full bg-[color:var(--stadium-blue)] px-3 py-1 text-sm font-black text-[color:var(--trophy-gold)]">
+              {group.group} 组
+            </h2>
             <div className="mt-4 grid gap-2">
               {group.teams.map((slug) => {
                 const team = teamMap.get(slug);
@@ -35,12 +40,12 @@ export default function TeamsPage() {
                   <Link
                     key={slug}
                     href={`/teams/${slug}`}
-                    className="rounded-md border border-slate-100 px-3 py-3 transition hover:border-emerald-200 hover:bg-emerald-50"
+                    className="rounded-xl border border-[color:var(--line-soft)] bg-white/80 px-3 py-3 transition hover:-translate-y-0.5 hover:border-[color:var(--trophy-gold-soft)] hover:bg-[color:var(--surface-soft)]"
                   >
-                    <span className="block text-sm font-semibold text-slate-950">
+                    <span className="block text-sm font-black text-[color:var(--ink)]">
                       {getTeamLabel(teamMap, slug)}
                     </span>
-                    <span className="mt-1 block text-xs text-slate-500">
+                    <span className="mt-1 block text-xs font-medium text-[color:var(--muted)]">
                       {team?.nameEn ?? slug}
                     </span>
                   </Link>
