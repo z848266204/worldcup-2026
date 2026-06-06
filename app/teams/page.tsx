@@ -35,17 +35,37 @@ export default function TeamsPage() {
             <div className="mt-4 grid gap-2">
               {group.teams.map((slug) => {
                 const team = teamMap.get(slug);
+                const hasBio = Boolean(team?.bioZh?.trim());
 
                 return (
                   <Link
                     key={slug}
                     href={`/teams/${slug}`}
-                    className="rounded-xl border border-[color:var(--line-soft)] bg-white/80 px-3 py-3 transition hover:-translate-y-0.5 hover:border-[color:var(--trophy-gold-soft)] hover:bg-[color:var(--surface-soft)]"
+                    className={`rounded-xl border px-3 py-3 transition hover:-translate-y-0.5 ${
+                      hasBio
+                        ? "border-[color:var(--trophy-gold-soft)] bg-[linear-gradient(135deg,#0b1f35,#0f4a34)] shadow-lg shadow-black/15 hover:border-[color:var(--trophy-gold)]"
+                        : "border-[color:var(--line-soft)] bg-white/80 hover:border-[color:var(--trophy-gold-soft)] hover:bg-[color:var(--surface-soft)]"
+                    }`}
                   >
-                    <span className="block text-sm font-black text-[color:var(--ink)]">
-                      {getTeamLabel(teamMap, slug)}
+                    <span className="flex items-center justify-between gap-3">
+                      <span
+                        className={`block text-sm font-black ${
+                          hasBio ? "text-white" : "text-[color:var(--ink)]"
+                        }`}
+                      >
+                        {getTeamLabel(teamMap, slug)}
+                      </span>
+                      {hasBio ? (
+                        <span className="rounded-full bg-[color:var(--trophy-gold)] px-2 py-0.5 text-[10px] font-black text-[color:var(--stadium-blue)]">
+                          详解
+                        </span>
+                      ) : null}
                     </span>
-                    <span className="mt-1 block text-xs font-medium text-[color:var(--muted)]">
+                    <span
+                      className={`mt-1 block text-xs font-medium ${
+                        hasBio ? "text-white/68" : "text-[color:var(--muted)]"
+                      }`}
+                    >
                       {team?.nameEn ?? slug}
                     </span>
                   </Link>

@@ -13,7 +13,11 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-[rgba(7,22,18,0.82)] shadow-lg shadow-black/10 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-3 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
-        <Link href="/" className="inline-flex items-center gap-2 text-base font-bold text-white">
+        <Link
+          href="/"
+          aria-label="返回首页"
+          className="inline-flex items-center gap-2 text-base font-bold text-white"
+        >
           <span className="grid size-9 place-items-center rounded-full bg-[var(--trophy-gold)] text-[var(--stadium-blue)]">
             <Trophy size={18} aria-hidden="true" />
           </span>

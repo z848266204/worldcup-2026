@@ -54,6 +54,12 @@ export default async function TeamPage({ params }: TeamPageProps) {
 
   return (
     <main className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-8 sm:px-6 lg:px-8">
+      <Link
+        href="/"
+        className="inline-flex w-fit text-sm font-bold text-white/60 transition hover:text-[color:var(--trophy-gold)]"
+      >
+        ← 返回首页
+      </Link>
       <section className="relative overflow-hidden rounded-3xl border border-white/10 bg-[radial-gradient(circle_at_16%_10%,rgba(245,183,0,0.24),transparent_26%),linear-gradient(135deg,#071612_0%,#0f2b46_52%,#0d4f36_100%)] p-6 shadow-2xl sm:p-8">
         <div className="absolute inset-0 opacity-20 [background-image:linear-gradient(120deg,rgba(255,255,255,0.12)_1px,transparent_1px)] [background-size:28px_28px]" />
         <div className="relative flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
